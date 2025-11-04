@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakecrest HOA | Home</title>
+    <meta name="description" content="Lakecrest Homeowners Association">
+    <meta name="author" content="Ivann Padron">
+    <link rel="stylesheet" href="styles/lakecrest.css">
+</head>
+
+<body>
+    <div class="sticky-logo" id="stickyLogo">
+        <img src="images/lakecrest-logo.png"
+            alt="Circular Logo with a tree in the middle, the word 'lakecrest is a the top part of circle, FVP centered on top of the tree, HOA is centered at the bottom of the circular image."
+            id="logo">
+    </div>
+
+    <header>
+        <nav id="navMenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#amenities">Amenities</a></li>
+                <li><a href="#documents">Documents</a></li>
+                <li><a href="#service-providers">Service Providers</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero" id="hero-main">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="videos/freecompress-background-animation.mp4" type="video/mp4">
+        </video>
+        <h1>Welcome to Lakecrest FVP</h1>
+    </div>
+    <!-- Hero animation top DIV-->
+    <div class="events" id="events">
+        <h2>Community Events</h2>
+        <div class="slider-container" id="eventSlider">
+            <div class="slider-wrapper" id="sliderWrapper">
+                <!-- Event 1 -->
+                <div class="event-slide" data-event="1">
+                    <div class="two-column-container">
+                        <div class="column">
+                            <img src="images/thumbnail_lakecresthalloween2026.jpg"
+                                alt="flyer for lakecrest halloween event 2025">
+                        </div>
+                        <div class="column">
+                            <h3>Annual Halloween Movie Night</h3>
+                            <p><strong>Date:</strong> October 30, 2025</p>
+                            <p><strong>Time:</strong> 6:00 PM - 9:00 PM</p>
+                            <p><strong>Location:</strong> Playground in Lakecrest Forest</p>
+                            <p>Come join us for a spook-tacular evening of family-friendly Halloween movie! We'll be
+                                featuring
+                                classic Halloween Adams Family 2019.</p>
+                            <p><strong>What's Included:</strong> Goody Bags, Hot Chocolate, and Free Raffle</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event 2 -->
+                <div class="event-slide" data-event="2">
+                    <div class="two-column-container">
+                        <div class="column">
+                            <img src="images/lakecrest-logo.png" alt="Community meeting placeholder">
+                        </div>
+                        <div class="column">
+                            <h3>Monthly Board Meeting</h3>
+                            <p><strong>Date:</strong> November 15, 2025</p>
+                            <p><strong>Time:</strong> 7:00 PM - 8:30 PM</p>
+                            <p><strong>Location:</strong> Community Clubhouse</p>
+                            <p>Join us for our monthly HOA board meeting to discuss community updates, budget reviews,
+                                and upcoming projects.</p>
+                            <p><strong>What's Included:</strong> Light refreshments and Q&A session</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event 3 -->
+                <div class="event-slide" data-event="3">
+                    <div class="two-column-container">
+                        <div class="column">
+                            <img src="images/lakecrest-logo.png" alt="Holiday party placeholder">
+                        </div>
+                        <div class="column">
+                            <h3>Holiday Community Party</h3>
+                            <p><strong>Date:</strong> December 20, 2025</p>
+                            <p><strong>Time:</strong> 5:00 PM - 9:00 PM</p>
+                            <p><strong>Location:</strong> Community Clubhouse</p>
+                            <p>Celebrate the holidays with your neighbors! Family-friendly event with games, food, and
+                                special surprise guests.</p>
+                            <p><strong>What's Included:</strong> Dinner, desserts, and holiday activities</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event 1 Duplicate for seamless loop -->
+                <div class="event-slide" data-event="1">
+                    <div class="two-column-container">
+                        <div class="column">
+                            <img src="images/thumbnail_lakecresthalloween2026.jpg"
+                                alt="flyer for lakecrest halloween event 2025">
+                        </div>
+                        <div class="column">
+                            <h3>Annual Halloween Movie Night</h3>
+                            <p><strong>Date:</strong> October 30, 2025</p>
+                            <p><strong>Time:</strong> 6:00 PM - 9:00 PM</p>
+                            <p><strong>Location:</strong> Playground in Lakecrest Forest</p>
+                            <p>Come join us for a spook-tacular evening of family-friendly Halloween movie! We'll be
+                                featuring
+                                classic Halloween Adams Family 2019.</p>
+                            <p><strong>What's Included:</strong> Goody Bags, Hot Chocolate, and Free Raffle</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="zoom-overlay" id="zoomOverlay">
+                <div class="zoom-content" id="zoomContent">
+                    <button class="close-zoom" id="closeZoom">&times;</button>
+                    <div id="zoomedEvent"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Div 2 columns-->
+    <div id="pool">
+        <h3>Swimming Pool Updates</h3>
+        <img src="videos/girl-pums-in-pool.gif"
+            alt="little girl with floating donut jumps into swimming pool, mother sits next to her.">
+    </div>
+    <div class="pool-info-container">
+        <div class="pool-info">
+            <p>Swimming Pool Season: May - September</p>
+            <p>Pool Hours: 10 AM - 10 PM Daily</p>
+            <p>Pool Rules: No diving, no glass containers, and children must be supervised.</p>
+            <p>For more information, please contact the HOA office.</p>
+        </div>
+        <div class="contact-section">
+            <button class="contact-btn">Contact Us</button>
+        </div>
+    </div>
+    <!-- Pool-->
+    <!-- Pool-->
+    <!-- Amenities -->
+    <div class="amenities">
+        <h3>Amenities</h3>
+        <div class="amenities-container">
+            <div class="amenity-card">
+                <img src="images/pool-icon.svg" alt="Swimming Pool" class="amenity-icon">
+                <p>Swimming Pool</p>
+            </div>
+            <div class="amenity-card">
+                <img src="images/clubhouse-icon.svg" alt="Clubhouse" class="amenity-icon">
+                <p>Clubhouse</p>
+            </div>
+            <div class="amenity-card">
+                <img src="images/icons-playground-2.png" alt="Playground" class="amenity-icon">
+                <p>Playground</p>
+            </div>
+            <div class="amenity-card">
+                <img src="images/trails-icon.svg" alt="Walking Trails" class="amenity-icon">
+                <p>Walking Trails</p>
+            </div>
+        </div>
+    </div>
+    <!-- Amenities End-->
+    <div class="content-rows">
+        <!-- Row 1: Image Text -->
+        <a href="about.html" class="content-row-link">
+            <div class="content-row row-1">
+                <div class="content-image">
+                    <img src="images/board-conference.png" alt="Community Image 1">
+                </div>
+                <div class="content-text">
+                    <h3>Meet The Board</h3>
+                    <p>Our dedicated Board of Directors is committed to maintaining Lakecrest's exceptional standards
+                        and
+                        fostering a vibrant community spirit. Comprised of passionate residents who volunteer their time
+                        and
+                        expertise, our board brings together diverse backgrounds in business, finance, property
+                        management,
+                        and community planning. They work tirelessly to ensure our neighborhood remains a premier place
+                        to
+                        call home, making thoughtful decisions that enhance property values, improve amenities, and
+                        create
+                        lasting memories for all families in our community.</p>
+                </div>
+            </div>
+        </a>
+
+        <!-- Row 2: Text Image -->
+        <div class="content-row row-1">
+            <div class="content-text">
+                <h3>Documentation and Forms</h3>
+                <p>Access important documents and forms related to community living, including architectural guidelines,
+                    maintenance requests, and meeting minutes. Stay informed and engaged with the Lakecrest community
+                    by utilizing these resources.</p>
+            </div>
+            <div class="content-image">
+                <img src="images/application-form.png" alt="Community Image 2">
+            </div>
+        </div>
+
+        <!-- Row 3: Image Text -->
+        <div class="content-row row-3">
+            <div class="content-image">
+                <img src="images/service-center.png" alt="Community Image 3">
+            </div>
+            <div class="content-text">
+                <h3>Community Vendors</h3>
+                <p>Find essential service provider information for your home and family needs. This comprehensive
+                    resource includes contact details for power companies, internet service providers, cell phone
+                    carriers, cable services, landscaping companies, home security systems, and other trusted local
+                    vendors. Whether you're a new homeowner setting up utilities or an existing resident exploring
+                    better service options, our curated list of recommended providers will help you connect with
+                    reliable companies that serve our Lakecrest community.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Lakecrest Homeowners Association. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const slider = document.getElementById('eventSlider');
+            const sliderWrapper = document.getElementById('sliderWrapper');
+            const eventSlides = document.querySelectorAll('.event-slide');
+            const zoomOverlay = document.getElementById('zoomOverlay');
+            const zoomContent = document.getElementById('zoomContent');
+            const zoomedEvent = document.getElementById('zoomedEvent');
+            const closeZoom = document.getElementById('closeZoom');
+
+            // Navigation toggle functionality
+            const stickyLogo = document.getElementById('stickyLogo');
+            const navMenu = document.getElementById('navMenu');
+            const header = document.querySelector('header');
+
+            let isScrolling = false;
+            let scrollTimeout;
+
+            // Navigation now works with CSS hover - no click handlers needed
+
+            // Handle click on event slides
+            eventSlides.forEach(slide => {
+                slide.addEventListener('click', function () {
+                    // Pause slider
+                    slider.classList.add('paused');
+
+                    // Clone the slide content for zoom view
+                    const slideClone = slide.cloneNode(true);
+                    slideClone.style.width = '100%';
+                    slideClone.style.cursor = 'default';
+                    slideClone.style.transform = 'none';
+                    slideClone.style.boxShadow = 'none';
+
+                    // Clear previous content and add new
+                    zoomedEvent.innerHTML = '';
+                    zoomedEvent.appendChild(slideClone);
+
+                    // Show zoom overlay
+                    zoomOverlay.classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                });
+            });
+
+            // Close zoom overlay
+            function closeZoomView() {
+                zoomOverlay.classList.remove('active');
+                document.body.style.overflow = 'auto';
+                // Resume slider after a short delay
+                setTimeout(() => {
+                    slider.classList.remove('paused');
+                }, 300);
+            }
+
+            closeZoom.addEventListener('click', closeZoomView);
+
+            // Close on overlay click (outside content)
+            zoomOverlay.addEventListener('click', function (e) {
+                if (e.target === zoomOverlay) {
+                    closeZoomView();
+                }
+            });
+
+            // Close on Escape key
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape' && zoomOverlay.classList.contains('active')) {
+                    closeZoomView();
+                }
+            });
+
+            // Handle scroll to resume slider
+            function handleScroll() {
+                isScrolling = true;
+
+                // Clear timeout if it exists
+                clearTimeout(scrollTimeout);
+
+                // Resume slider when scrolling
+                if (slider.classList.contains('paused') && !zoomOverlay.classList.contains('active')) {
+                    slider.classList.remove('paused');
+                }
+
+                // Set timeout to detect when scrolling stops
+                scrollTimeout = setTimeout(() => {
+                    isScrolling = false;
+                }, 150);
+            }
+
+            // Add scroll event listener
+            window.addEventListener('scroll', handleScroll, { passive: true });
+
+            // Pause on hover, resume on mouse leave (if not in zoom view)
+            slider.addEventListener('mouseenter', function () {
+                if (!zoomOverlay.classList.contains('active')) {
+                    slider.classList.add('paused');
+                }
+            });
+
+            slider.addEventListener('mouseleave', function () {
+                if (!zoomOverlay.classList.contains('active')) {
+                    slider.classList.remove('paused');
+                }
+            });
+        });
+    </script>
+
+</body>
+
+
+</html>
