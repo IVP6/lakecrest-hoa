@@ -328,7 +328,7 @@ nav ul li a:hover {
     display: flex;
     width: 400%;
     /* 4 slides x 100% each (3 original + 1 duplicate) */
-    animation: seamlessSlide 56s infinite linear;
+    animation: seamlessSlide 40s infinite linear;
     transition: none;
     height: 100%;
 }
@@ -392,20 +392,16 @@ nav ul li a:hover {
         transform: translateX(0%);
     }
 
-    25% {
-        transform: translateX(-25%);
+    33.33% {
+        transform: translateX(-33.333%);
     }
 
-    50% {
-        transform: translateX(-50%);
-    }
-
-    75% {
-        transform: translateX(-75%);
+    66.66% {
+        transform: translateX(-66.666%);
     }
 
     100% {
-        transform: translateX(-75%);
+        transform: translateX(-100%);
     }
 }
 
@@ -499,7 +495,7 @@ nav ul li a:hover {
     }
 
     .slider-wrapper {
-        animation-duration: 66s;
+        animation-duration: 45s;
         /* Slower on mobile for better readability */
     }
 
