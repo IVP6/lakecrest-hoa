@@ -11,13 +11,12 @@
 </head>
 
 <body>
-    <div class="sticky-logo" id="stickyLogo">
-        <img src="images/lakecrest-logo.png"
-            alt="Circular Logo with a tree in the middle, the word 'lakecrest is a the top part of circle, FVP centered on top of the tree, HOA is centered at the bottom of the circular image."
-            id="logo">
-    </div>
-
     <header>
+        <div class="header-logo">
+            <img src="images/lakecrest-logo.png"
+                alt="Circular Logo with a tree in the middle, the word 'lakecrest is a the top part of circle, FVP centered on top of the tree, HOA is centered at the bottom of the circular image."
+                id="logo">
+        </div>
         <nav id="navMenu">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -35,11 +34,108 @@
         <p>Explore our facilities and features</p>
     </div>
 
-    <div class="under-construction">
-        <div class="construction-content">
-            <h2>🚧 UNDER CONSTRUCTION 🚧</h2>
-            <p>This page is currently being developed. Please check back soon!</p>
-            <a href="index.html" class="cta-btn primary">Back to Home</a>
+    <!-- Amenities Overview -->
+    <div class="amenities" id="amenities-overview">
+        <h3>Our Amenities</h3>
+        <div class="amenities-container">
+            <div class="amenity-card">
+                <img src="images/pool-icon.svg" alt="Swimming Pool" class="amenity-icon">
+                <p>Swimming Pool</p>
+            </div>
+            <div class="amenity-card">
+                <img src="images/clubhouse-icon.svg" alt="Clubhouse" class="amenity-icon">
+                <p>Clubhouse</p>
+            </div>
+            <div class="amenity-card">
+                <img src="images/icons-playground-2.png" alt="Playground" class="amenity-icon">
+                <p>Playground</p>
+            </div>
+            <div class="amenity-card">
+                <img src="images/trails-icon.svg" alt="Walking Trails" class="amenity-icon">
+                <p>Walking Trails</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Detailed Amenity Sections -->
+    <div class="content-rows">
+        <!-- Swimming Pool Section -->
+        <div class="content-row row-1" id="swimming-pool">
+            <div class="content-image">
+                <img src="videos/girl-pums-in-pool.gif" alt="Swimming Pool">
+            </div>
+            <div class="content-text">
+                <h3>Swimming Pool</h3>
+                <p>Our resort-style swimming pool is the perfect place to cool off during the hot summer months. The
+                    pool features a spacious design with dedicated areas for both lap swimming and leisurely recreation.
+                </p>
+                <p><strong>Pool Season:</strong> May - September</p>
+                <p><strong>Hours:</strong> 10:00 AM - 10:00 PM Daily</p>
+                <p><strong>Rules:</strong> No diving, no glass containers, children must be supervised at all times.</p>
+            </div>
+        </div>
+
+        <!-- Clubhouse Section -->
+        <div class="content-row row-2" id="clubhouse">
+            <div class="content-image">
+                <img src="images/community-1.svg" alt="Clubhouse">
+            </div>
+            <div class="content-text">
+                <h3>Clubhouse</h3>
+                <p>The community clubhouse is available for resident events, meetings, and private gatherings. This
+                    versatile space features modern amenities and comfortable seating arrangements.</p>
+                <p><strong>Availability:</strong> By reservation only</p>
+                <p><strong>Capacity:</strong> Up to 75 guests</p>
+                <p><strong>Features:</strong> Full kitchen, tables and chairs, audio/visual equipment, Wi-Fi access</p>
+                <p><strong>Reservations:</strong> Contact the HOA office to book the clubhouse for your event.</p>
+            </div>
+        </div>
+
+        <!-- Playground Section -->
+        <div class="content-row row-1" id="playground">
+            <div class="content-image">
+                <img src="images/community-1.svg" alt="Playground">
+            </div>
+            <div class="content-text">
+                <h3>Playground</h3>
+                <p>Our modern playground features age-appropriate equipment for children of all ages. The play area is
+                    surrounded by comfortable seating for parents and shade structures for hot summer days.</p>
+                <p><strong>Features:</strong> Swing sets, slides, climbing structures, spring riders, and sandbox area
+                </p>
+                <p><strong>Safety:</strong> All equipment meets current safety standards and is regularly inspected</p>
+                <p><strong>Hours:</strong> Dawn to dusk</p>
+                <p><strong>Rules:</strong> Children must be supervised by an adult at all times</p>
+            </div>
+        </div>
+
+        <!-- Walking Trails Section -->
+        <div class="content-row row-2" id="walking-trails">
+            <div class="content-image">
+                <img src="images/community-1.svg" alt="Walking Trails">
+            </div>
+            <div class="content-text">
+                <h3>Walking Trails</h3>
+                <p>Enjoy the natural beauty of our community on our well-maintained walking trails. Perfect for morning
+                    jogs, evening strolls, or family walks, our trails wind through scenic areas of the neighborhood.
+                </p>
+                <p><strong>Trail Length:</strong> Approximately 1.5 miles of interconnected paths</p>
+                <p><strong>Features:</strong> Paved walkways, benches, lighting for evening use, pet-friendly</p>
+                <p><strong>Access:</strong> Open to all residents 24/7</p>
+                <p><strong>Rules:</strong> Please keep dogs on leash and clean up after pets</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="cta-section">
+        <div class="cta-content">
+            <h3>Questions About Our Amenities?</h3>
+            <p>Our HOA board is here to help! Contact us for more information about amenity reservations, rules, or
+                upcoming improvements.</p>
+            <div class="cta-buttons">
+                <a href="contactus.html" class="cta-btn primary">Contact Us</a>
+                <a href="index.html" class="cta-btn secondary">Back to Home</a>
+            </div>
         </div>
     </div>
 
